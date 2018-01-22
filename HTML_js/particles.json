@@ -7,7 +7,7 @@
             "value":"#FFF438"
         },
         "shape":{
-            "type":"star",
+            "type":"star    ",
             "stroke":{
                 "width":1,
                 "color":"#ccc"
