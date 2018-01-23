@@ -1,0 +1,25 @@
+{
+    "particles":{
+        "number":{
+            "value":10
+        },
+        "color":{
+            "value":"#FFF438"
+        },
+        "shape":{
+            "type":"star",
+            "stroke":{
+                "width":1,
+                "color":"#ccc"
+            }
+        },
+        "opacity":{
+            "value":0.8,
+            "random":true
+        },
+        "size":{
+            "value":10,
+            "random":true
+        }
+    }
+}
