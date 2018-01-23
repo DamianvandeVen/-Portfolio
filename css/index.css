@@ -1,9 +1,11 @@
+* {
 
+}
 /* Main css */
- {
 body {
     font-family: 'Roboto', sans-serif;
     color:#403E3D;
+    background-color:black;
 }
 
 #wrapper {
@@ -25,6 +27,7 @@ ul {
 
 #headertext {
     text-align:center;
+    color:black;
 }
 
 
@@ -78,6 +81,10 @@ ul {
 
   .cell img {
     margin-bottom: 0;
+  }
+
+  h1 {
+      color:green;
   }
 
 }
