@@ -1,0 +1,83 @@
+
+/* Main css */
+ {
+body {
+    font-family: 'Roboto', sans-serif;
+    color:#403E3D;
+}
+
+#wrapper {
+    max-width: 1500px;
+    0margin: 0 auto;
+    padding: 0 40px;
+}
+
+a {
+    text-decoration: none;
+    color:#403E3D;
+    font-style:italic;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+#headertext {
+    text-align:center;
+}
+
+
+/* Particles */
+
+#particles-js {
+    background:white;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -9999;
+    animation-delay: 1s;
+    animation-duration: 5s;
+}
+
+/* media */
+
+@media screen and (min-width: 500px) {
+
+  .container {
+    flex-basis: 49%;
+  }
+
+}
+
+@media screen and (min-width: 750px) {
+
+  h1 {
+    font-size: 2.1875em;
+    color: #403E3D;
+    font-weight: normal;
+    margin-top: 180px;
+    margin-bottom: 180px;
+  }
+
+  .grid {
+    margin-top: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .cell {
+    flex-basis: 49%;
+    margin-bottom: 2%;
+  }
+
+  .cell img {
+    margin-bottom: 0;
+  }
+
+}

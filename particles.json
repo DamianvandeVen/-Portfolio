@@ -14,8 +14,7 @@
             }
         },
         "opacity":{
-            "value":0.8,
-            "random":true
+            "value":0.8
         },
         "size":{
             "value":10,
