@@ -1,8 +1,18 @@
 
 /* Main css */
+body {
+    font-family: 'Roboto', sans-serif;
+    width:900px;
+    float:none;
+    height:900px;
+    color:#403E3D;
+}
+
+
 a {
     text-decoration: none;
     color:#403E3D;
+    font-style:italic;
 }
 
 ul {
@@ -10,77 +20,14 @@ ul {
 }
 
 #wrapper {
-    max-width: 1500px;
-    margin: 0 auto;
-    padding: 0 40px;
-}
-
-#body {
-    font-family: 'Roboto', sans-serif;
-}
+  margin: 0 auto;
+  background: white;
+  padding: 50px;
+  box-sizing: border-box; }
 
 #headertext {
     text-align:center;
     margin-top:10%;
-    color:#403E3D;
-}
-
-#aboutmediv {
-    margin-left:-65px;
-    text-align:left;
-    margin-top:180px;
-    display:inline-block;
-    width:480px;
-
-}
-#aboutme {
-    color:#403E3D;
-    text-align:center;
-}
-
-#aboutmetext {
-    font-style:italic;
-    font-weight:lighter;
-    color:#403E3D;
-    text-align:center;
-}
-
-#skillsdiv {
-    margin-left:700px;
-    text-align:left;
-    margin-top:-120px;
-    width:10px;
-}
-
-#skills {
-    color:#403E3D;
-    text-align:center;
-}
-
-#skillstext {
-    font-style:italic;
-    font-weight:lighter;
-    text-align:left;
-    color:#403E3D;
-}
-
-#contactdiv {
-    margin-left:1100px;
-    text-align:left;
-    margin-top:-100px;
-    width:100px;
-}
-
-#contact {
-    color:#403E3D;
-    text-align:left;
-}
-
-#contacttext {
-    font-style:italic;
-    font-weight:lighter;
-    text-align:left;
-    color:#403E3D;
 }
 
 /* Particles */
@@ -90,9 +37,4 @@ ul {
     height: 100vh;
     display: block;
     position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -9999;
-    animation-delay: 1s;
-    animation-duration: 5s;
 }
