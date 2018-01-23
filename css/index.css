@@ -86,8 +86,11 @@ p, ul, a {
 
   #wrapper {
       max-width: 1300px;
-      background-color: #fff;
       margin: 40px auto 0 auto;
       padding: 20px 50px;
       display:flex;
   }
+
+ #contact {
+     text-align:center;
+ }
